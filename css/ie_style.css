@@ -1,0 +1,8 @@
+.clear {
+	display: inline-block;  
+}  
+
+.clear {
+	zoom: _1;
+	display: block; 
+}

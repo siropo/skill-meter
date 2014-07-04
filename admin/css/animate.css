@@ -1,0 +1,62 @@
+.flash {
+
+z-index: 20;
+opacity: 1;
+
+animation-name: flash;
+animation-duration: 0.2s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: 1;
+
+-moz-animation-name: flash;
+-moz-animation-duration: 0.2s;
+-moz-animation-timing-function: linear;
+-moz-animation-delay: 0s;
+-moz-animation-iteration-count: 1;
+
+-webkit-animation-name: flash;
+-webkit-animation-duration: 0.2s;
+-webkit-animation-delay: 0s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: 1;
+
+-ms-animation-name: flash;
+-ms-animation-duration: 0.2s;
+-ms-animation-timing-function: linear;
+-ms-animation-delay: 0s;
+-ms-animation-iteration-count: 1;
+
+-o-animation-name: flash;
+-o-animation-duration: 0.2s;
+-o-animation-delay: 0s;
+-o-animation-timing-function: linear;
+-o-animation-iteration-count: 1;
+
+}
+@-webkit-keyframes flash {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes flash {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes flash {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@-o-keyframes flash {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+
+@keyframes flash {
+	0% {opacity: 0;}	
+	100% {opacity: 1;}
+}
+}
+
